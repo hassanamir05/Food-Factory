@@ -16,41 +16,17 @@
     text-decoration: none;
 }
 
-#link1 {
-    padding-left: 15px;
-    color: #fff;
-}
-
-#link1:hover {
-    color: #f59506;
-    text-decoration: overline;
-}
-
-#link2 {
-    padding-left: 15px;
-    color: #fff;
-}
-
-#link2:hover {
-    color: #f59506;
-    text-decoration: overline;
-}
-
-#link3 {
-    padding-left: 15px;
-    color: #fff;
-}
-
-#link3:hover {
-    color: #f59506;
-    text-decoration: overline;
-}
-
+#link1,
+#link2,
+#link3,
 #link4 {
     padding-left: 15px;
     color: #fff;
 }
 
+#link1:hover,
+#link2:hover,
+#link3:hover,
 #link4:hover {
     color: #f59506;
     text-decoration: overline;
