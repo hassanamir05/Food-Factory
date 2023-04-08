@@ -26,285 +26,304 @@
     <!--Favicon-->
     <link rel="shortcut icon" type="image/x-icon" href="about-us-image.png">
 </head>
-
-<body>
-    <!--Title-->
-    <section id="title">
-        <div class="container">
-            <nav id="navbar" class="navbar navbar-expand-lg ">
-                <a class="navbar-brand" style="color:dark">
-                    <i style="font-family: cursive; font-size: 20px; color: #fff">Food Factory</i>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<!--Title-->
+<section id="title">
+    <div class="container">
+        <nav id="navbar" class="navbar navbar-expand-lg ">
+            <a class="navbar-brand" style="color:dark">
+                <i style="font-family: cursive; font-size: 20px; color: #fff">Food Factory</i>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                <div class="collapse navbar-collapse me-auto" id="navbarSupportedContent">
-                    <ul id="navlist1" class="list navbar-nav mx-auto">
-                        <li class="nav-item active">
-                            <a id="link1" class="nav-link" href="#title">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="link2" class="nav-link" href="#menu">MENU</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="link3" class="nav-link" href="#about-us">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="link4" class="nav-link" href="#book-now">BOOK TABLE</a>
-                        </li>
-                    </ul>
-                    <ul id="navlist2" class="list navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <i class="fa fa-user icon"></i><i class="fa fa-cart-shopping icon"></i><i class="fa fa-magnifying-glass icon"></i>
-                        </li>
-                        <button class="buttons">Order Online</button>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <div class="main">
-            <h3 class="main-heading">Fast Food Restaurant</h3>
-            <p class="main-text">Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.</p>
-            <button style="margin:0px" class="buttons">Order Now</button>
-        </div>
-    </section>
-
-    <!--Deals of the day-->
-    <div class="all-deals">
-        <h3 style="font-family: cursive; font-size: 50px; text-align:center">Deals of the day</h3>
-        <div class="deal">
-            <img src="discount-burger.png" alt="img-1">
-            <div class="deal-text">
-                <h2>Burger</h2>
-                <h3>20% off</h3>
-                <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
+            <div class="collapse navbar-collapse me-auto" id="navbarSupportedContent">
+                <ul id="navlist1" class="list navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a id="link1" class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="link2" class="nav-link" href="#">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="link3" class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="link4" class="nav-link" href="#">BOOK TABLE</a>
+                    </li>
+                </ul>
+                <ul id="navlist2" class="list navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="login-container">
+                                        <h1>Login Page</h1>
+                                        <form action="#" method="POST">
+                                            <div class="input-field">
+                                                <input type="text" name="username" placeholder="Username">
+                                            </div>
+                                            <div class="input-field">
+                                                <input type="password" name="password" placeholder="Password">
+                                            </div>
+                                            <div class="submit-button">
+                                                <button type="submit" class="buttons">Submit</button>
+                                            </div>
+                                        </form>
+                                        <div class="signup-link">
+                                            Not a member? <a href="#">Sign up</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button data-bs-target="#exampleModalToggle" data-bs-toggle="modal" style="background-color: transparent; border:none; color:#fff"><i class="fa fa-user icon"></i></button>
+                        <i class="fa fa-magnifying-glass icon"></i>
+                    </li>
+                    <button class="buttons">Order Online</button>
+                </ul>
             </div>
+        </nav>
+    </div>
+    <div class="main">
+        <h3 class="main-heading">Fast Food Restaurant</h3>
+        <p class="main-text">Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.</p>
+        <button style="margin:0px" class="buttons">Order Now</button>
+    </div>
+</section>
+
+<!--Deals of the day-->
+<div class="all-deals">
+    <h3 style="font-family: cursive; font-size: 50px; text-align:center">Deals of the day</h3>
+    <div class="deal">
+        <img src="discount-burger.png" alt="Food 1">
+        <div class="deal-text">
+            <h2>Burger</h2>
+            <h3>20% off</h3>
+            <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
         </div>
-        <div class="deal">
-            <img src="discount-pizza.png" alt="img-2">
-            <div class="deal-text">
-                <h2>Pizza</h2>
-                <h3>15% off</h3>
-                <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
+    </div>
+    <div class="deal">
+        <img src="Discount-pizza.png" alt="Food 1">
+        <div class="deal-text">
+            <h2>Pizza</h2>
+            <h3>15% off</h3>
+            <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
+        </div>
+    </div>
+</div>
+
+<!--Menu-->
+<h2 style="text-align: center; text-decoration:underline">Menu</h2>
+<div class="menu">
+    <div class="menu-options">
+        <a class="menu-option" href="#burger">Burger</a>
+        <a class="menu-option" href="#pizza">Pizza</a>
+        <a class="menu-option" href="#fries">Fries</a>
+    </div>
+
+    <!--Burger section-->
+    <h1 style="padding:20px;" id="burger">Burger</h1>
+    <div class=" contaier ">
+        <div class="row ">
+            <div class="col-sm-3 ">
+                <div class="card ">
+                    <img src="discount-burger.png " class="card-img-top " alt="burger ">
+                    <div class="card-body " style="color:#fff;">
+                        <h5 class="card-title ">Burger</h5>
+                        <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="card-bottom ">
+                        <h5>3.49$</h5>
+                        <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="card ">
+                    <img src="discount-burger.png " class="card-img-top " alt="burger ">
+                    <div class="card-body " style="color:#fff;">
+                        <h5 class="card-title ">Burger</h5>
+                        <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="card-bottom ">
+                        <h5>3.49$</h5>
+                        <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="card ">
+                    <img src="discount-burger.png " class="card-img-top " alt="burger ">
+                    <div class="card-body " style="color:#fff;">
+                        <h5 class="card-title ">Burger</h5>
+                        <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="card-bottom ">
+                        <h5>3.49$</h5>
+                        <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <!--Menu-->
-    <h2 style="text-align: center; text-decoration:underline" id="menu">Menu</h2>
-    <div class="menu">
-        <div class="menu-options">
-            <a class="menu-option" href="#burger">Burger</a>
-            <a class="menu-option" href="#pizza">Pizza</a>
-            <a class="menu-option" href="#fries">Fries</a>
-        </div>
-
-        <!--Burger section-->
-        <h1 style="padding:20px;" id="burger">Burger</h1>
-        <div class=" contaier ">
-            <div class="row ">
-                <div class="col-sm-3 ">
-                    <div class="card ">
-                        <img src="discount-burger.png " class="card-img-top " alt="burger ">
-                        <div class="card-body " style="color:#fff;">
-                            <h5 class="card-title ">Burger</h5>
-                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        <div class="card-bottom ">
-                            <h5>3.49$</h5>
-                            <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
-                        </div>
+    <!--Pizza Section-->
+    <h1 style="padding:20px;" id="pizza">Pizza</h1>
+    <div class="contaier2 ">
+        <div class="row ">
+            <div class="col-sm-3 ">
+                <div class="card ">
+                    <img src="discount-pizza.png" class="card-img-top " alt="burger ">
+                    <div class="card-body " style="color:#fff;">
+                        <h5 class="card-title ">Burger</h5>
+                        <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="card-bottom ">
+                        <h5>3.49$</h5>
+                        <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
                     </div>
                 </div>
-                <div class="col-sm-3 ">
-                    <div class="card ">
-                        <img src="discount-burger.png " class="card-img-top " alt="burger ">
-                        <div class="card-body " style="color:#fff;">
-                            <h5 class="card-title ">Burger</h5>
-                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        <div class="card-bottom ">
-                            <h5>3.49$</h5>
-                            <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
-                        </div>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="card ">
+                    <img src="discount-pizza.png" class="card-img-top " alt="burger ">
+                    <div class="card-body " style="color:#fff;">
+                        <h5 class="card-title ">Burger</h5>
+                        <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="card-bottom ">
+                        <h5>3.49$</h5>
+                        <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
                     </div>
                 </div>
-                <div class="col-sm-3 ">
-                    <div class="card ">
-                        <img src="discount-burger.png " class="card-img-top " alt="burger ">
-                        <div class="card-body " style="color:#fff;">
-                            <h5 class="card-title ">Burger</h5>
-                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        <div class="card-bottom ">
-                            <h5>3.49$</h5>
-                            <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
-                        </div>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="card ">
+                    <img src="discount-pizza.png" class="card-img-top " alt="burger ">
+                    <div class="card-body " style="color:#fff;">
+                        <h5 class="card-title ">Burger</h5>
+                        <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="card-bottom ">
+                        <h5>3.49$</h5>
+                        <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!--Pizza Section-->
-        <h1 style="padding:20px;" id="pizza">Pizza</h1>
-        <div class="contaier2 ">
-            <div class="row ">
-                <div class="col-sm-3 ">
-                    <div class="card ">
-                        <img src="discount-pizza.png" class="card-img-top " alt="burger ">
-                        <div class="card-body " style="color:#fff;">
-                            <h5 class="card-title ">Pizza</h5>
-                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        <div class="card-bottom ">
-                            <h5>7.99$</h5>
-                            <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3 ">
-                    <div class="card ">
-                        <img src="discount-pizza.png" class="card-img-top " alt="burger ">
-                        <div class="card-body " style="color:#fff;">
-                            <h5 class="card-title ">Pizza</h5>
-                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        <div class="card-bottom ">
-                            <h5>7.99$</h5>
-                            <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3 ">
-                    <div class="card ">
-                        <img src="discount-pizza.png" class="card-img-top " alt="burger ">
-                        <div class="card-body " style="color:#fff;">
-                            <h5 class="card-title ">Pizza</h5>
-                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        <div class="card-bottom ">
-                            <h5>7.99$</h5>
-                            <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--Fries section-->
-        <h1 style="padding:20px;" id="fries">Fries</h1>
-        <div class="contaier2 ">
-            <div class="row ">
-                <div class="col-sm-3 ">
-                    <div class="card ">
-                        <img src="discount-fries.png" class="card-img-top " alt="burger ">
-                        <div class="card-body " style="color:#fff;">
-                            <h5 class="card-title ">Fries</h5>
-                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        <div class="card-bottom ">
-                            <h5>1.79$</h5>
-                            <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3 ">
-                    <div class="card ">
-                        <img src="discount-fries.png" class="card-img-top " alt="burger ">
-                        <div class="card-body " style="color:#fff;">
-                            <h5 class="card-title ">Fries</h5>
-                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        <div class="card-bottom ">
-                            <h5>1.79$</h5>
-                            <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3 ">
-                    <div class="card ">
-                        <img src="discount-fries.png" class="card-img-top " alt="burger ">
-                        <div class="card-body " style="color:#fff;">
-                            <h5 class="card-title ">Fries</h5>
-                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        <div class="card-bottom ">
-                            <h5>1.79$</h5>
-                            <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <button class="buttons" style="margin:40px;margin-bottom:70px; width:160px; height:40px">View More</button>
     </div>
 
-    <!-- About US -->
-
-    <section id="about-us">
-        <div class="row" style="margin-right: 0px;">
-            <div class="col-lg-6">
-                <div class="d-flex align-items-center justify-content-center" style="height:100%;">
-                    <img class="about-us-img" src="about-us-image.png">
+    <!--Fries section-->
+    <h1 style="padding:20px;" id="fries">Fries</h1>
+    <div class="contaier2 ">
+        <div class="row ">
+            <div class="col-sm-3 ">
+                <div class="card ">
+                    <img src="discount-fries.png" class="card-img-top " alt="burger ">
+                    <div class="card-body " style="color:#fff;">
+                        <h5 class="card-title ">Burger</h5>
+                        <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="card-bottom ">
+                        <h5>3.49$</h5>
+                        <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
+                    </div>
                 </div>
             </div>
-            <div id="text-about-us" class="col-lg-6">
-                <h1 class="about-us-text">We are Food Factory!</h1>
-                <p class="about-us-text">Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.</p>
-                <button style="margin:0; margin-bottom:20px" class="buttons">Read more...</button>
-            </div>
-        </div>
-    </section>
-
-    <!--Book Now-->
-    <section id="book-now">
-        <h3 style="margin-left:250px; font-family:cursive">Book Table</h3>
-        <div class="row">
-            <div class="col-lg-6">
-                <input class="box" type="text" placeholder="Your Name">
-                <br>
-                <input class="box" type="tel" placeholder="Phone Number">
-                <input class="box" type="email" placeholder="Your Email">
-                <input class="box" type="number" placeholder="How many People?">
-                <input class="box" type="date" placeholder="dd/mm/yy"><br>
-                <button style="margin-left:30px; margin-top:15px; margin-bottom:15px" class="buttons">Book Now</button>
-            </div>
-            <div class="col-lg-6">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6648.73051385882!2d73.11225487415238!3d33.56986452295939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfece8c8c6a4d1%3A0x174e617a9761a780!2sBahria%20Town%20Phase%201%20Phase%201%20Bahria%20Town%2C%20Rawalpindi%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1680737148187!5m2!1sen!2s"
-                    width="450" height="400" style="border:0;margin-left:15px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-    </section>
-
-    <!--Ending-->
-    <section class="ending">
-        <div class="container2">
-            <div class="row">
-                <div style="padding-top:30px; text-align:center" class="col-lg-3">
-                    <h4 style="font-family: cursive;color:#fff;">Contact Us</h4>
-                    <a class="contact" href="#" style="text-decoration:none; padding-bottom:5px"><i class="fa fa-location-dot"></i>Location</a><br>
-                    <a class="contact" href="#" style="text-decoration:none;  padding-bottom:5px"> Call <i class="fa fa-phone"> +92 123 456 7890</i></a><br>
-                    <a class="contact" href="#"><i class="fa fa-envelope"> abc@gmail.com</i></a>
+            <div class="col-sm-3 ">
+                <div class="card">
+                    <img src=" discount-fries.png " class="card-img-top " alt="burger ">
+                    <div class="card-body " style="color:#fff; ">
+                        <h5 class="card-title ">Burger</h5>
+                        <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="card-bottom ">
+                        <h5>3.49$</h5>
+                        <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
+                    </div>
                 </div>
-                <div style="padding-top:30px; text-align:center" class="col-lg-3">
-                    <h4 style="color:#fff">Social Media</h4>
-                    <i style="color:#fff;" class="fa-brands fa-pinterest"></i>
-                    <i style="color:#fff;" class="fa-brands fa-facebook"></i>
-                    <i style="color:#fff;" class="fa-brands fa-instagram"></i>
-                    <i style="color:#fff;" class="fa-brands fa-linkedin"></i>
-                    <i style="color:#fff;" class="fa-brands fa-twitter"></i>
-                </div>
-                <div style="padding-top:30px; text-align:center" class="col-lg-3">
-                    <h4 style="color:#fff">Opening Hours</h4>
-                    <h5 style="color:#fff">11:00 am to 1:00 pm</h5>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="card ">
+                    <img src="discount-fries.png " class="card-img-top " alt="burger ">
+                    <div class="card-body " style="color:#fff; ">
+                        <h5 class="card-title ">Burger</h5>
+                        <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="card-bottom ">
+                        <h5>3.49$</h5>
+                        <a href="# " class="btn "><i class="fa fa-bag-shopping "></i></a>
+                    </div>
                 </div>
             </div>
         </div>
-        <p style="color:#fff; text-align:center; padding-top:40px"><i class="fa-solid fa-copyright"> 2023 all rights reserved to M.Hassan Amir</i></p>
-    </section>
+    </div>
 
+    <button class="buttons " style="margin:40px;margin-bottom:70px; width:160px; height:40px ">View More</button>
+</div>
 
+<!-- Call to Action -->
+
+<section id="about-us ">
+    <div class="row " style="margin-right: 0px; ">
+        <div class="col-lg-6 ">
+            <div class="d-flex align-items-center justify-content-center " style="height:100%; ">
+                <img class="about-us-img " src="about-us-image.png ">
+            </div>
+        </div>
+        <div id="text-about-us " class="col-lg-6 ">
+            <h1 class="about-us-text ">We are Food Factory!</h1>
+            <p class="about-us-text ">Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.</p>
+            <button style="margin:0; margin-bottom:20px " class="buttons ">Read more...</button>
+        </div>
+    </div>
+</section>
+
+<!--Book Now-->
+<section id="book-now ">
+    <h3 style="margin-left:250px; font-family:cursive ">Book Table</h3>
+    <div class="row ">
+        <div class="col-lg-6 ">
+            <input class="box " type="text " placeholder="Your Name ">
+            <br>
+            <input class="box " type="tel " placeholder="Phone Number ">
+            <input class="box " type="email " placeholder="Your Email ">
+            <input class="box " type="number " placeholder="How many People? ">
+            <input class="box " type="date " placeholder="dd/mm/yy "><br>
+            <button style="margin-left:30px; margin-top:15px; margin-bottom:15px " class="buttons ">Book Now</button>
+        </div>
+        <div class="col-lg-6 ">
+            <img src="book-table-img.png ">
+        </div>
+    </div>
+</section>
+
+<!--Ending-->
+<section class="ending ">
+    <div class="container2 ">
+        <div class="row ">
+            <div style="padding-top:30px; text-align:center " class="col-lg-3 ">
+                <h4 style="font-family: cursive;color:#fff; ">Contact Us</h4>
+                <a class="contact " href="# " style="text-decoration:none; padding-bottom:5px "><i class="fa fa-location-dot "></i>Location</a><br>
+                <a class="contact " href="# " style="text-decoration:none; padding-bottom:5px "> Call <i class="fa fa-phone "> +92 123 456 7890</i></a><br>
+                <a class="contact " href="# "><i class="fa fa-envelope "> abc@gmail.com</i></a>
+            </div>
+            <div style="padding-top:30px; text-align:center " class="col-lg-3 ">
+                <h4 style="color:#fff ">Social Media</h4>
+                <i style="color:#fff; " class="fa-brands fa-pinterest "></i>
+                <i style="color:#fff; " class="fa-brands fa-facebook "></i>
+                <i style="color:#fff; " class="fa-brands fa-instagram "></i>
+                <i style="color:#fff; " class="fa-brands fa-linkedin "></i>
+                <i style="color:#fff; " class="fa-brands fa-twitter "></i>
+            </div>
+            <div style="padding-top:30px; text-align:center " class="col-lg-3 ">
+                <h4 style="color:#fff ">Opening Hours</h4>
+                <h5 style="color:#fff ">11:00 am to 1:00 pm</h5>
+            </div>
+        </div>
+    </div>
+    <p style="color:#fff; text-align:center; padding-top:40px "><i class="fa-solid fa-copyright "> 2023 all rights reserved to M.Hassan Amir</i></p>
+</section>
 </body>
 
 </html>
