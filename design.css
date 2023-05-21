@@ -162,9 +162,9 @@
 }
 
 .card-bottom a:hover {
-    font-size: 25px;
-    background-color: #f59506;
-    color: #fff;
+    font-size: 22px;
+    background-color: #fff;
+    color:#f59506;
 }
 
 .deal-text a {
